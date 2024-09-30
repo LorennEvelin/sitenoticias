@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog precisa saber </title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+           background: linear-gradient(rgb(134, 227, 121), rgb(49, 92, 31));
+           padding: 60px;
+           text-align: center;
+           color: white; 
+        }
+        nav{
+            display: flex;
+            background-color: #1d3b07;
+        }
+         nav a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px 0px 20px;
+            text-align: center;
+         }
+         nav a:hover{
+            color: #333333;
+            background-color: white;
+         }
+         .row{
+            display: flex;
+            flex-wrap: wrap;
+         }
+         aside{
+            flex: 20%;
+            background-color: #b6f1b9a9;
+            padding: 10px;
+         }
+         img{
+            width: 80%;
+            padding: 10px;
+         }
+
+         .foto{
+            width: 100%;
+         }
+
+         main{
+            flex: 30%;
+            background-color: rgba(208, 246, 203, 0.521);
+            padding: 20px;
+         }
+        
+         footer{
+            background: linear-gradient(rgb(134, 227, 121), rgb(49, 92, 31));
+            text-align: center;
+            color: white;
+            padding: 30px;
+         }
+         @media (max-width: 700px){
+            nav {
+                flex-direction: column;
+            }
+            .row{
+                flex-direction: column;
+            }
+         }
+
+    </style>
+</head>
+<body>
+    <header>   
+    
+        <h1> Blog você precisa saber</h1>
+        <p>Acompanhe as novidades com a gente!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="Pagina2.html">Página 2</a>
+        <a href="pagina3.html">Página 3</a>
+        <a href="pagina4.html">Página 4</a>
+    </nav>
+
+    <div class="row">
+
+    <aside>
+        <h2>Plantas que purificam o ar da sua casa.</h2>
+        <img src="assets/casa.jpeg">
+        <p> Mais saúde!</p>
+        <img src="assets/casa1.jpeg">
+        <img src="assets/casa2.jpeg">
+        <img src="assets/cactos.jpeg">
+        <img src="assets/familia.jpg">
+        <img src="assets/flores.jpg">
+    
+    
+    </aside>
+
+    <main>
+        <article>
+            <h2> Lírio da paz</h2>
+           <img class="foto" src="assets/lirioDaPaz.jpg">
+
+            <p>Ela tem uma grande capacidade de filtrar o ar, 
+                absorvendo diversos poluentes e até mesmo a fumaça de cigarro. 
+                Além disso, o lírio da paz tem uma flor muito bonita, 
+                sendo ótimo também para decorar o ambiente.
+                Esta planta precisa de pouca luz e pouca água para se
+                 desenvolver bem. Não é recomendado que ela fique em locais
+                 com muita corrente de ar e com temperaturas muito baixas.
+            </p>
+        </article>
+
+        <article>
+            <h2> Espada de São Jorge</h2>
+            <img class="foto" src="assets/espada.png">
+            <p> Essa planta que ajuda a purificar o ar da casa é a espada de São Jorge,
+                 que, além de liberar oxigênio durante a noite, absorve substâncias
+                 tóxicas como benzeno, xileno, formaldeído, tolueno e tricloroetileno. Muito usada para fins decorativos, a planta é originária da África e 
+                suporta temperaturas extremas, altas ou baixas.</p>
+        </article>
+
+        <article>
+            <h2>Palmeira-bambu</h2>
+            <img class="foto" src="assets/palmeira.png">
+            <p>A palmeira-bambu, originária de Madagascar, também é 
+                conhecida como areca bambu. Ela é versátil, fácil de ser
+                 cuidada e pode ser usada tanto em ambientes internos quanto
+                 externos.
+                 Dentro de casa, a dica é colocar a palmeira-bambu perto
+                 de armários, pois ela tem a propriedade de absorver
+                 substâncias tóxicas liberadas por tecidos de roupas. </p>
+        </article>
+
+        <article>
+            <h2> Antúrio</h2>
+            <img class="foto" src="assets/anturio.png">
+            <p>Muito utilizado em decoração, o antúrio chama a 
+                atenção por suas folhas com um verde intenso e pelas folhas
+                modificadas na cor avermelhada. A planta vai
+                bem em ambientes internos, bem iluminados mas 
+                sem luz direta e sem muito vento. Quanto à sua 
+                ação purificadora, o antúrio é ideal para absorver a amônia.
+                Essas são algumas plantas que ajudam a purificar o ar da casa, 
+                além de trazer mais beleza para o décor.</p>
+        </article>
+    </main>
+</div>
+    <footer>
+        <p>CopyRight - BlogPreciSaber - Todos os direitos reservados - 2024</p>
+    </footer>
+</body>
+</html>

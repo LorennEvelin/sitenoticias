@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog precisa saber </title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+           background-color: rgb(255, 0, 17);
+           padding: 60px;
+           text-align: center;
+           color: white; 
+        }
+        nav{
+            display: flex;
+            background-color: #230101;
+        }
+         nav a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px 0px 20px;
+            text-align: center;
+         }
+         nav a:hover{
+            color: #333333;
+            background-color: white;
+         }
+         .row{
+            display: flex;
+            flex-wrap: wrap;
+         }
+         aside{
+            flex: 20%;
+            background-color: #f1f1f1;
+            padding: 30px;
+    
+         }
+         img{
+            width: 80%;
+            padding: 10px;
+         }
+
+         .foto{
+            width: 100%;
+         }
+
+         main{
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+         }
+         .fakeimg{
+            background-color: #aaaaaa;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 10px;
+         }
+         footer{
+            background-color: rgb(255, 0, 17);
+            text-align: center;
+            color: white;
+            padding: 30px;
+         }
+         @media (max-width: 700px){
+            nav {
+                flex-direction: column;
+            }
+            .row{
+                flex-direction: column;
+            }
+         }
+
+    </style>
+</head>
+<body>
+    <header>   
+    
+        <h1> Blog você precisa saber</h1>
+        <p>Acompanhe as novidades com a gente!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="Pagina2.html">Página 2</a>
+        <a href="pagina3.html">Página 3</a>
+        <a href="pagina4.html">Página 4</a>
+    </nav>
+
+    <div class="row">
+
+    <aside>
+        <h2>Filmes em alta</h2>
+        <img src="assets/fotoPipoca.jpeg">
+        <img src="assets/oculos3d.jpeg">
+        <img src="assets/variados.jpeg">
+        <img src="assets/aliens2.jpeg">
+        <img src="assets/corvo2.jpeg">
+        <img src="assets/maldado2.jpg">
+        <img src="assets/cinema.jpeg">
+    
+    </aside>
+
+    <main>
+        <article>
+            <h2> Deadpool & Wolverine </h2>
+            <h5>Estreia - 25 de julho de 2024</h5>
+           <img class="foto" src="assets/deadpool.jpeg">
+
+            <h3>Sinopse</h3>
+            <h5>Não recomendado para menores de 18 anos.</h5>
+            <p>Deadpool & Wolverine reúne o icônico mercenário tagarela Wade Wilson (Ryan Reynolds) e o poderoso mutante Wolverine (Hugh Jackman) em uma aventura explosiva,
+             escrita e produzida pelos mesmos talentos por trás de Deadpool (2016) e Deadpool 2 (2018). Wade Wilson desfruta de um momento de aparente calma ao lado de Vanessa (Morena Baccarin) 
+            e seus amigos e, em contra partida, Wolverine se recupera de seus ferimentos. Um têm os seus caminhos cruzados com o outro, dando início a uma improvável aliança. Juntos, eles enfrentam um inimigo formidável em comum, desencadeando uma jornada repleta de ação, humor e reviravoltas surpreendentes. Deadpool & Wolverine promete ser uma aventura épica, cheia de referências aos quadrinhos e momentos de pura adrenalina, proporcionando aos fãs uma experiência única
+            e inesquecível no universo dos super-heróis.
+            </p>
+        </article>
+
+        <article>
+            <h2> Alien: Romulus</h2>
+            <h5>Estreia 15 de agosto de 2024</h5>
+            <img class="foto" src="assets/aliens.jpeg">
+            
+
+            <h3>Sinopse</h3>
+            <h5>Não recomendado para menores de 16 anos.</h5>
+            <p>Um grupo de jovens colonizadores espaciais se aventuram 
+                nas profundezas de uma estação espacial abandonada. 
+                Lá, eles descobrem uma forma de vida aterrorizante,
+                 forçando-os a lutar por sua sobrevivência.
+            </p>
+        </article>
+
+        <article>
+            <h2> O corvo</h2>
+            <h5>Estreia 22 de agosto de 2024</h5>
+            <img class="foto" src="assets/corvo.jpeg">
+            
+            
+            <h3>Sinopse</h3>
+            <h5>Não recomendado para menores de 18 anos.</h5>
+            <p>Quando os demônios do passado de Eric Draven e Shelly 
+                finalmente os encontram, o resultado é fatal. Após serem brutalmente assassinados,
+                 Eric possui a chance de salvar seu grande amor, mas para isso terá que 
+                atravessar os mundos dos vivos e dos mortos.
+            </p>
+        </article>
+
+        <article>
+            <h2> Meu Malvado Favorito 4</h2>
+            <h5>Estreia 04 de julho de 2024</h5>
+            <img class="foto" src="assets/malvado.jpeg">
+            
+
+            <h3>Sinopse</h3>
+            <h5> Classificação indicativa livre.</h5>
+            <p>
+                Gru dá as boas-vindas a um novo membro da família,
+                 Gru Jr., que pretende atormentar seu pai. No entanto,
+                  sua existência pacífica logo desmorona quando um mentor
+                   do crime escapa da prisão e jura vingança contra Gru. </p>
+        </article>
+    </main>
+</div>
+    <footer>
+        <p>CopyRight - BlogPreciSaber - Todos os direitos reservados - 2024</p>
+    </footer>
+</body>
+</html>
